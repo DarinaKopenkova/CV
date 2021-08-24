@@ -1,0 +1,316 @@
+@font-face {
+    font-family: "Bebas";
+    src: url("./bebas_neue_regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.primaryBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color: rgb(37, 89, 161);
+    font-family: Bebas;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+h2 {
+    color: rgb(82, 79, 82);
+    font-family: Bebas;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 3px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.candidate {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.full_name {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.empty_block {
+    margin-left: 10px;
+    height: 33px;
+    background-color: rgb(37, 89, 161);
+    flex-grow: 1;
+}
+
+.photo_description {
+    display: flex;
+    flex-direction: row;
+}
+
+#photo {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+}
+
+.description {
+    position: relative;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+blockquote {
+    color: rgb(36, 86, 157);
+    font-family: Bebas;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0;
+    display: flex;
+    margin-bottom: 0;
+    height: 50px;
+}
+
+.blockquote_firstMark {
+    font-size: 120px;
+    margin-top: -13px;
+}
+
+.signature {
+    font-size: 10px;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.mainBlock {
+    position: absolute;
+    margin: 20px 25px 0px 18px;
+    height: 22px;
+    width: 64%;
+    background-color: rgb(186, 183, 187);
+    border: 1px solid rgb(174, 170, 174);
+}
+
+.percentScale {
+    position: relative;
+    margin: 20px 25px 0px 18px;
+    height: 22px;
+    background-color: rgb(32, 81, 157);
+    width: 80%;
+}
+
+.skills {
+    padding-top: 2px;
+    margin-left: 30px;
+}
+
+.percent {
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 85%;
+}
+
+.main_experienceEducation {
+    display: flex;
+    flex-direction: row;
+}
+
+.experienceEducation {
+    margin-top: 25px;
+}
+
+.columnDescription {
+    background-color: rgb(213, 213, 216);
+    padding-left: 18px;
+    padding-bottom: 10px;
+}
+
+.columnDescription_name {
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    margin-left: 0;
+}
+
+.years {
+    color: white;
+    background-color: rgb(32, 79, 152);
+    width: 90px;
+    height: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.jobTitle {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+
+.placeOfWork {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+}
+
+.workDescription {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.distance {
+    width: 20px;
+}
+
+.leftSide {
+    background-color: rgb(33, 78, 147);
+    width: 100%;
+    height: 100%;
+}
+
+.qr img {
+    width: 100px;
+    height: 100px;
+}
+
+.qr {
+    margin-left: 35%;
+}
+
+.contactInfo {
+    margin-left: 26%;
+}
+
+h3 {
+    color: white;
+    font-family: Bebas;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.info_contacts {
+    color: rgb(164, 200, 245);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+
+.info_icons {
+    color: white;
+    margin: 10px 10px 10px 120px;
+}
+
+.fas {
+    padding-bottom: 20px;
+}
+
+.info_contacts div {
+    padding-bottom: 13px;
+}
+
+.fab {
+    color: white;
+    font-size: 80px;
+    padding-right: 30px;
+}
+
+.icons_skills {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+.icons {
+    font-size: 30px;
+    color: white;
+    margin-top: 10px;
+    margin-right: 5%;
+    margin-left: 15%;
+    padding: 0;
+}
+
+.interests_names {
+    color: white;
+    font-family: Bebas;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15%;
+}
+
+.socialMedia {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.social_icons {
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 15%;
+    border: 1px solid rgb(19, 17, 17);
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(19, 17, 17);
+}
+
+.socialMedia_links {
+    color: white;
+    font-size: 10x;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    text-decoration: none;
+}
